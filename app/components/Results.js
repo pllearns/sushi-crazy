@@ -23,7 +23,7 @@ class Results extends Component {
   render() {
     return (
       <View>
-        <Text style={styles.header}>Results</Text>
+        <Text style={styles.header}>Your Sushi</Text>
         <ListView
           style={{marginTop: 100}}
           initialListSize={10}

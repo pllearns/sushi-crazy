@@ -5,7 +5,7 @@
   */
 
  import React, { Component } from 'react'
- import { AppRegistry } from 'react-native'
+ import { AppRegistry, Image } from 'react-native'
 
  import AppNavigator from './app/navigation/AppNavigator'
 
@@ -13,7 +13,7 @@
 
    render() {
      return (
-       <AppNavigator initialRoute={{ident: "PrimarySearch"}} />
+         <AppNavigator initialRoute={{ident: "PrimarySearch"}} />
      )
    }
  }

@@ -9,6 +9,7 @@ import {
   StyleSheet,
   Text,
   View,
+  Image,
   TouchableOpacity
 } from 'react-native';
 
@@ -65,15 +66,13 @@ export default class PrimarySearch extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Let's get SushiCrazy!
-        </Text>
+        <Image source={require('../../images/SUSHICRAZY.png')} style={{height: 300, width: 300}}/>
         <TouchableOpacity
-          style={{borderRadius: 7, padding: 10, backgroundColor: 'rgb(34, 139, 34)'}}
+          style={{borderRadius: 7, padding: 10, backgroundColor: 'rgb(139, 33, 61)'}}
           onPress={this.getData.bind(this)}>
-            <Text style={{fontSize: 15}}>Find the Fix!</Text>
-          </TouchableOpacity>
-      </View>
+          <Text style={{fontSize: 15, color: 'white'}}>Get Your Roll</Text>
+        </TouchableOpacity>
+    </View>
     )
   }
 }
@@ -84,7 +83,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#eee',
+    backgroundColor: 'transparent',
   },
   welcome: {
     fontSize: 20,
