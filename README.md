@@ -27,7 +27,7 @@ react-native run-ios (recommended)
 ## Built With
 
 * [React Native](https://facebook.github.io/react-native/) 
-* [Lite-Server](https://github.com/johnpapa/lite-server) - Lightweight Node Server
+* [v3-yelp-api](https://www.npmjs.com/package/v3-yelp-api) - Library for Yelp API with React Native
 
 ## Authors
 
@@ -40,4 +40,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * The React Team for React Native!
-* 
+* dobiedad for creating and welcoming feedback on v3-yelp-api
